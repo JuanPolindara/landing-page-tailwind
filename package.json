@@ -1,0 +1,16 @@
+{
+  "name": "landing-page1",
+  "version": "1.0.0",
+  "description": "landing page1 hecha con Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scanTailwind":"npx tailwindcss -i ./src/css/config.css -o ./src/css/index.css --watch"
+  },
+  "keywords": [],
+  "author": "Juan Pablo Polindra <juanpolindara@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
